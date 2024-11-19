@@ -8,7 +8,7 @@ import { Card, Space } from "antd";
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="padding-20-top-bottom">
+    <div id="about" className="item padding-20-top-bottom">
       <Card title="About" className="detail-card" hoverable>
         <Space direction="vertical">
           <>

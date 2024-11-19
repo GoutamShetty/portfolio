@@ -82,7 +82,7 @@ const items = [
 
 const Education: React.FC = () => {
   return (
-    <div id="education" className="padding-20-top-bottom">
+    <div id="education" className="item padding-20-top-bottom">
       <Card
         id="education"
         title="Education"

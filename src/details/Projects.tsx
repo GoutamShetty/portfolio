@@ -11,21 +11,21 @@ const data = [
     title: "Zomato Clone",
     description:
       "A clone of the Zomato website, built using React. The app allows users to search for restaurants, view their details, and add items to the cart.",
-    href: "",
+    href: "https://github.com/GoutamShetty/Zomato_clone_project",
     tools: ["React", "MongoDB", "CSS", "JavaScript"],
   },
   {
     title: "Personal Portfolio",
     description:
       "A personal portfolio website built using React. The website showcases my projects, experience, and education.",
-    href: "",
+    href: "https://github.com/GoutamShetty/portfolio",
     tools: ["React", "CSS", "JavaScript", "Ant Design", "TypeScript"],
   },
 ];
 
 const Projects: React.FC = () => {
   return (
-    <div id="projects" className="padding-20-top-bottom project">
+    <div id="projects" className="item padding-20-top-bottom project">
       <Card title="Projects" className="detail-card" hoverable>
         <List
           itemLayout="vertical"
@@ -33,7 +33,11 @@ const Projects: React.FC = () => {
           renderItem={(item) => (
             <List.Item>
               <List.Item.Meta
-                title={<a href={item.href}>{item.title}</a>}
+                title={
+                  <a target="__blank" href={item.href}>
+                    {item.title}
+                  </a>
+                }
                 description={item.description}
               />
               <Space wrap>

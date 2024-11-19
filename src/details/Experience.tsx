@@ -22,13 +22,12 @@ const items = [
             Cognizant -&gt;
           </Button>
         </div>
-        <>
-          Gained first hand experience in Python programming, SQL database
-          management, and FastAPI framework after successfully completing
-          coursework and hands-on projects. Developed RESTful APIs for
-          performing basic CRUD operations using the FastAPI framework. Python
-          SQL C
-        </>
+        <div>
+          Gained foundational knowledge in full-stack development through
+          structured training sessions. The internship focused on understanding
+          front-end and back-end technologies, along with industry best
+          practices for building scalable web applications.
+        </div>
       </>
     ),
   },
@@ -42,13 +41,22 @@ const items = [
             314e Corporation -&gt;
           </Button>
         </div>
-        <>
-          Gained first hand experience in Python programming, SQL database
-          management, and FastAPI framework after successfully completing
-          coursework and hands-on projects. Developed RESTful APIs for
-          performing basic CRUD operations using the FastAPI framework. Python
-          SQL C
-        </>
+        <p>
+          At 314e Corporation, I contributed to developing an ATS + CRM product
+          and an internal hospital communication interface, focusing on
+          delivering high-quality, feature-rich applications. I implemented
+          features such as a LinkedIn Chrome Extension, Insights, Dashboard,
+          React Native App, Kanban Board, Richtext Editor, and Keycloak theme
+          customization.
+        </p>
+        <p>
+          My work involved using modern technologies like ReactJS, Tailwind CSS,
+          Ant Design, ag-Grid, and Keycloak. I ensured quality through unit
+          tests with Jest and end-to-end tests with Playwright. Additionally, I
+          supported team members, participated in leadership discussions,
+          conducted code reviews, and leveraged GitHub CI/CD for efficient
+          deployments.
+        </p>
       </>
     ),
   },
@@ -56,7 +64,7 @@ const items = [
 
 const Experience: React.FC = () => {
   return (
-    <div id="experience" className="padding-20-top-bottom">
+    <div id="experience" className="item padding-20-top-bottom">
       <Card
         id="experience"
         title="Experience"
