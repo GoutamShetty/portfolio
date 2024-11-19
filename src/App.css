@@ -257,6 +257,7 @@
 
 .detail-card {
   width: 90%;
+  background-color: transparent;
 }
 
 .app-col-1 .profile-button-container {

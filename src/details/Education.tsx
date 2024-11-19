@@ -4,15 +4,7 @@
  */
 
 import React from "react";
-import {
-  Button,
-  Card,
-  Progress,
-  Space,
-  Steps,
-  Timeline,
-  Typography,
-} from "antd";
+import { Button, Card, Progress, Space, Timeline, Typography } from "antd";
 
 import CircleRightUp from "../icons/CircleRightUP";
 

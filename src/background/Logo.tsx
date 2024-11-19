@@ -8,6 +8,7 @@ const Logo: React.FC = () => {
     <a
       href="https://github.com/GoutamShetty"
       target="_blank"
+      rel="noreferrer"
       className="github-corner"
       aria-label="View source on Github"
     >
