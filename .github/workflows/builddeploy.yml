@@ -8,7 +8,7 @@ on:
 jobs:
   deploy-web:
     name: Deploy web
-    runs-on: [self-hosted, nodejs22]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
