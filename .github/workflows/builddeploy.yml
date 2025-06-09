@@ -17,5 +17,8 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Install gh-pages
+        run: npm install --save-dev gh-pages
+
       - name: Deploy
         run: gh-pages -d build
