@@ -1,0 +1,21 @@
+name: "BUILD & DEPLOY"
+
+on:
+  workflow_run:
+    workflows: ["WEB BUILD & DEPLOY"]
+  workflow_dispatch:
+
+jobs:
+  deploy-web:
+    name: Deploy web
+    runs-on: [self-hosted, nodejs22]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: gh-pages -d build
