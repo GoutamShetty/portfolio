@@ -9,7 +9,7 @@ const ResumeButtons = () => {
   const handleDownload = async () => {
     void message.loading("Downloading Resume...");
     const url =
-      "https://drive.google.com/uc?export=download&id=1wlmakJ1TZA87lN1eYyULSRdwNPABG4BD";
+      "https://drive.google.com/uc?export=download&id=1elkA83EaRYrmkxRA8l09H4eh-xow5jMU";
     const link = document.createElement("a");
     link.href = url;
     link.download = "Goutam_Shetty_Resume.pdf";
@@ -26,7 +26,7 @@ const ResumeButtons = () => {
         size="large"
         target="_blank"
         rel="noreferrer"
-        href="https://drive.google.com/file/d/1wlmakJ1TZA87lN1eYyULSRdwNPABG4BD/view?usp=sharing"
+        href="https://drive.google.com/file/d/1elkA83EaRYrmkxRA8l09H4eh-xow5jMU/view?usp=sharing"
       >
         View Resume
       </Button>

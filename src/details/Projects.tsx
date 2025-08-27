@@ -8,11 +8,18 @@ import { Card, List, Space, Tag } from "antd";
 
 const data = [
   {
-    title: "Zomato Clone",
-    description:
-      "A clone of the Zomato website, built using React. The app allows users to search for restaurants, view their details, and add items to the cart.",
-    href: "https://github.com/GoutamShetty/Zomato_clone_project",
-    tools: ["React", "MongoDB", "CSS", "JavaScript"],
+    title: "GitTogether",
+    description: `Built a full-stack social platform for developers with real-time chat, authentication, payments (Razorpay), and email notifications (Cron + AWS SES). Frontend in React and TypeScript; backend in Node.js/Express with MongoDB, JWT, and Socket.io. Deployed on AWS (EC2, S3) behind Nginx with Cloudflare for scale and reliability.`,
+    href: "https://gittogether.shop",
+    tools: [
+      "React",
+      "MongoDB",
+      "CSS",
+      "JavaScript",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+    ],
   },
   {
     title: "Personal Portfolio",
